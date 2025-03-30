@@ -1,0 +1,409 @@
+.menu{
+    background-color: white;
+    height: 720px;
+    width: 80px;
+    
+}
+.menuIcon{
+    position: relative;
+    bottom: 1px;
+    height: 1px;
+    width: 1px;
+}
+i{
+    position: relative;
+    left: 25px;
+    margin-top: 10px;
+    font-size: 25px;
+    opacity: 0.5;
+}
+i:hover{
+    opacity: 1;
+}
+.addmedia h1{
+    background-color: white;
+    position: fixed;
+}
+.menu p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    position: relative;
+    bottom: 10px;
+    left: 15px;
+}
+.info{
+    position: fixed;
+    left: 1px;
+    bottom: 1px;
+    height: 40px;
+    width: 80px;
+    background-color: rgb(255, 140, 0);
+}
+.addmedia{
+    position: fixed;
+    left: 130px;
+    top: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    width: 330px; 
+}   
+.fa-photo-film{
+    opacity: 1;
+}
+/* 400,550 */
+.menuContent{
+    border-left: 1px solid skyblue;
+    height: 750px;
+    width: 400px;
+    /* background-color: black; */
+    position: relative;
+    left: 80px;
+    bottom: 650px;
+
+}
+.des{
+    background-color: white;
+    height: 170px;
+    width: 345px;
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+    left: 25px ;
+    border: 0.4px dotted grey;
+}
+.des:hover{
+    background-color: rgba(247, 247, 248, 0.2);
+    border: 0.8px dotted grey;
+}
+.fa-cloud-arrow-up{
+    position: relative;
+    left: 150px;
+    top: 30px;
+    font-size: xx-large;
+    
+}
+.upload p{
+    position: relative;
+    left: 120px;
+    top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    opacity: 0.7;
+    margin: 1px;
+}
+/* .fa-video{
+    opacity: 1;
+    position: relative;
+    left: 30px;
+} */
+.a button{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    height: 48px;
+    width: 168px;
+    border: none;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.a button:hover{
+    border-radius: 20px;
+    border: 0.8px solid blueviolet;
+}
+.a i{
+    opacity: 0.5;
+    font-size: 15px;
+    position: static;
+    right: 250px;
+    left: 0px;
+}
+.avatars h1{
+    position: relative;
+    top: 30px;
+    left:30px;
+    font-size: large;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.avatars p{
+    position: relative;
+    left: 300px;
+    opacity: 0.6;
+    bottom: 5px;
+}
+.avatars p:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.aiimages img{
+    border-radius: 20px;
+    height: 90px;
+    width:90px;
+    margin: 3px;
+}
+.stock h1{
+    position: relative;
+    top: 40px;
+    left:30px;
+    font-size: large;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.stock button{
+    height: 30px;
+    width: 100px;
+    position: relative;
+    left: 300px;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+}
+.stock span{
+    position: relative;
+    left: 13px;
+    bottom: 5px;
+}
+.stock button i{
+    position: static;
+    left: 400px;
+    bottom: 500px; 
+    font-size: 20px;
+}
+
+/* .stockVid{
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    padding: 10px 0;
+    height: 250px;
+    width: 400px;
+}
+
+.stockVid::-webkit-scrollbar { /* Hide scrollbar in WebKit browsers (Chrome, Safari) */
+    /* display: none;
+}
+
+.stockVid video{
+    border-radius: 20px;
+    display: inline-block;
+    width: 400px;
+    height: 250px;
+    justify-content: center;
+    position: relative;
+    top: 70px;
+    /* margin-right: 10px; */
+    /* object-fit: cover; */
+/* display: flex
+;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    z-index: 3;
+    background: rgb(255, 255, 255); */
+
+    .stockVid {
+        display: flex;
+        overflow-x: auto;
+        overflow-y: hidden;
+        -ms-overflow-style: none; /* Internet Explorer */
+        scrollbar-width: none; /* Firefox */
+        padding: 10px 0;  /* Add spacing around videos */
+        height: 250px;
+        max-width: 400px; /* Prevent overflow */
+    }
+    
+    .stockVid::-webkit-scrollbar {
+        display: none; /* Hide scrollbar in WebKit browsers (Chrome, Safari) */
+    }
+    
+    .stockVid video {
+        border-radius: 20px;
+        display: inline-block;
+        width: 142px; /* Allow responsive adjustment */
+        height: 80px; /* Maintain height of the container */
+        justify-content: center;
+        position: relative;
+        top: 20px;
+        left: 20px;
+        margin-right: 10px; /* Add margin to separate videos */
+        object-fit: cover; /* Maintain aspect ratio while filling the space */
+    }
+
+
+
+.pick{
+    border: 0.3px solid grey;
+    background-color: white;
+    border-radius: 20px;
+    /* height: 100%;
+    width: 100%; */
+    cursor: pointer;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    font-size: 15px;
+    font-weight: 200;
+    opacity: 0.6;
+}
+.pick:hover{
+    border: 1px solid grey;
+    opacity: 1;
+}
+.dot{
+    opacity: 1;
+    border-radius: 150px;
+}
+
+
+.track{
+    background-color: white;
+    height: 150px;
+    width: 1380px;
+    position: fixed;
+    bottom: 10px;
+    top: 630px;
+    left: 89px;
+    /* border-top: 1px solid black; */
+}
+.track .fa-scissors{
+    font-size: small;
+    opacity: 0.6;
+}
+.track p{
+    position: relative;
+    bottom: 30px;
+    left: 50px;
+    font-size: 13px;
+    opacity: 0.5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.track .fa-microphone{
+    font-size: small;
+    position: relative;
+    left: 150px;
+    bottom: 65px;
+    opacity: 0.6;
+
+}
+.track .fa-microphon{
+    position: relative;
+    bottom: 95px;
+    left: 170px;
+    font-size: 13px;
+
+}
+.play i{
+    position: relative;
+    bottom: 130px;
+    left: 700px;
+    margin: 5px;
+    font-size: 14px;
+}
+.playnum{
+    position: relative;
+    bottom: 159px;
+    opacity: 0.6;
+    left: 780px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+.track i{
+    opacity: 0.7;
+}
+.minus i{
+    position: relative;
+    left: 1150px;
+    bottom: 180px;
+    margin: 30px;
+    display: inline;
+}
+footer img{
+        position: relative;
+        bottom: 150px;
+        left: 12px;
+        height: 70px;
+        width: 100px;
+        display: inline-block;
+
+}
+.main{
+    background-color: #f7f7f8;
+    height: 660px;
+    width: 960px;
+    position: fixed;
+    bottom: 100px;
+    left: 500px;
+    /* border-left: 1px solid blue; */
+}
+.vid video{ 
+    height: 500px;
+    width: 840px;
+    position: fixed;
+    bottom: 1400px;
+    top: 80px;
+    left: 550px;
+
+}
+
+.vid button{
+    border: 0px;
+    position: fixed;
+    bottom: 145px;
+    background-color: white;
+    left: 850px;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    
+}
+.vid button:hover{
+    border: 1.5px solid blue;
+    border-radius: 10px;
+}
+.vid .m{
+    display: inline;
+    position: fixed;
+    left: 950px;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+}
+.main p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    opacity: 0.8;
+    position: relative;
+    left: 30px;
+    top:10px;
+    font-size: small;
+}
+.main .log{
+    border: none;
+    position: relative;
+    left: 130px;
+    bottom: 23px;
+    height: 30px;
+    width: 180px;
+    border-radius: 7px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 0.6;
+    font-weight: 800;
+}
+.main .log:hover{
+    border: 1px solid blue;
+}
+.main .save{
+    position: fixed;
+    top: 20px;
+    left: 1100px;
+    opacity: 0.4;
+    font-weight: 300;
+}
+.main a{
+    position: relative;
+    left: 770px;
+    bottom: 50px;
+
+}
